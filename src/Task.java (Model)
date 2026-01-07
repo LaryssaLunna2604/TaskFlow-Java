@@ -1,0 +1,15 @@
+public class Task {
+    private String descricao;
+    private boolean concluida;
+
+    public Task(String descricao, boolean concluida) {
+        this.descricao = descricao;
+        this.concluida = concluida;
+    }
+
+    public void exibir() {
+        System.out.println("Tarefa: " + descricao);
+        System.out.println("Concluída: " + (concluida ? "Sim" : "Não"));
+        System.out.println("---------------------");
+    }
+}
